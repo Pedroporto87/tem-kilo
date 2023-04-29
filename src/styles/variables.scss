@@ -1,5 +1,17 @@
 @font-face {
-    font-family: 'Montserrat';
-    src: url("fonts/Montserrat-VariableFont_wght.ttf")format("truetype");
+    font-family: 'Intro Blackcaps';
+    src: url("./fonts/Intro-Black-Caps.ttf")format("truetype");
 }
-$font-stack: "Montserrat"
+@font-face {
+    font-family: 'Alumni Sans';
+    src: url("./fonts/AlumniSans-VariableFont_wght.ttf")format("truetype");
+}
+
+$font-title: "Intro Blackcaps";
+$font-text: "Alumni Sans";
+$color-white: "#ffffff";
+$color-yellow: "#f2a11b";
+$color-wine: "#aa332f";
+$color-brown: "#513326";
+
+

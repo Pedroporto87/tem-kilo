@@ -1,36 +1,36 @@
-Montserrat Variable Font
-========================
+Alumni Sans Variable Font
+=========================
 
-This download contains Montserrat as both variable fonts and static fonts.
+This download contains Alumni Sans as both variable fonts and static fonts.
 
-Montserrat is a variable font with this axis:
+Alumni Sans is a variable font with this axis:
   wght
 
 This means all the styles are contained in these files:
-  Montserrat-VariableFont_wght.ttf
-  Montserrat-Italic-VariableFont_wght.ttf
+  AlumniSans-VariableFont_wght.ttf
+  AlumniSans-Italic-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Montserrat:
-  static/Montserrat-Thin.ttf
-  static/Montserrat-ExtraLight.ttf
-  static/Montserrat-Light.ttf
-  static/Montserrat-Regular.ttf
-  static/Montserrat-Medium.ttf
-  static/Montserrat-SemiBold.ttf
-  static/Montserrat-Bold.ttf
-  static/Montserrat-ExtraBold.ttf
-  static/Montserrat-Black.ttf
-  static/Montserrat-ThinItalic.ttf
-  static/Montserrat-ExtraLightItalic.ttf
-  static/Montserrat-LightItalic.ttf
-  static/Montserrat-Italic.ttf
-  static/Montserrat-MediumItalic.ttf
-  static/Montserrat-SemiBoldItalic.ttf
-  static/Montserrat-BoldItalic.ttf
-  static/Montserrat-ExtraBoldItalic.ttf
-  static/Montserrat-BlackItalic.ttf
+in those cases you can use the static font files for Alumni Sans:
+  static/AlumniSans-Thin.ttf
+  static/AlumniSans-ExtraLight.ttf
+  static/AlumniSans-Light.ttf
+  static/AlumniSans-Regular.ttf
+  static/AlumniSans-Medium.ttf
+  static/AlumniSans-SemiBold.ttf
+  static/AlumniSans-Bold.ttf
+  static/AlumniSans-ExtraBold.ttf
+  static/AlumniSans-Black.ttf
+  static/AlumniSans-ThinItalic.ttf
+  static/AlumniSans-ExtraLightItalic.ttf
+  static/AlumniSans-LightItalic.ttf
+  static/AlumniSans-Italic.ttf
+  static/AlumniSans-MediumItalic.ttf
+  static/AlumniSans-SemiBoldItalic.ttf
+  static/AlumniSans-BoldItalic.ttf
+  static/AlumniSans-ExtraBoldItalic.ttf
+  static/AlumniSans-BlackItalic.ttf
 
 Get started
 -----------
