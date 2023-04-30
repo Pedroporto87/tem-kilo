@@ -2,16 +2,5 @@
 @import '../variables';
 
 .social-media{
-    @include small-conteiner;
-    margin-right: 1.875rem;
-    gap: .625rem;
-    align-items: center;
-        svg{
-        font-size: 1.25rem;
-        color: $color-wine;
-        cursor: pointer;
-        &:hover{
-            color:$color-yellow
-        }
-    }
+    @include social-media;
 }
