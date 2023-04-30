@@ -1,0 +1,11 @@
+@import '../mixins';
+@import '../variables';
+
+.footer {
+    @include large-conteiner;
+    background-color: $color-footer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
