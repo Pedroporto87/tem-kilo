@@ -1,0 +1,17 @@
+
+@mixin small-conteiner{
+    display: flex;
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+@mixin large-conteiner {
+    display: flex;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 12.5rem;
+}
+
+

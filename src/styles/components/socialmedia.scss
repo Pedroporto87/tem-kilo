@@ -1,0 +1,11 @@
+@import '../mixins';
+@import '../variables';
+
+.social-media{
+    @include small-conteiner;
+    margin-right: 1.875rem;
+    gap: .625rem;
+    align-items: center;
+    color: $color-wine;
+    cursor: pointer;
+}
