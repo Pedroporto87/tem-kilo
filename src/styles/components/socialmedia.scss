@@ -6,6 +6,12 @@
     margin-right: 1.875rem;
     gap: .625rem;
     align-items: center;
-    color: $color-wine;
-    cursor: pointer;
+        svg{
+        font-size: 1.25rem;
+        color: $color-wine;
+        cursor: pointer;
+        &:hover{
+            color:$color-yellow
+        }
+    }
 }

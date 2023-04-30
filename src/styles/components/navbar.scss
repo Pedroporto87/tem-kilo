@@ -14,25 +14,12 @@ nav{
             height: 6.25rem;
             justify-content: flex-start;
             margin-left: 1.875rem;
-            background-color: black;
             img{
                 width: 6.25rem;
                 height: 6.25rem;
                 cursor: pointer;
             }
         }
-        .page-links{
-            display: flex;
-            width: 18.75rem;
-            align-items: center;
-            justify-content: center;
-             a{
-                padding: 5px;
-                text-decoration: none;
-                color: $color-wine;
-                font-family: $font-title;
-                cursor: pointer;
-                }
-        }
+        
 
 }

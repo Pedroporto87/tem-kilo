@@ -1,7 +1,8 @@
-import { useNavigate, NavLink} from 'react-router-dom'
+import { useNavigate} from 'react-router-dom'
+import NavButtons from './nav-buttons'
 import SocialMedia from './SocialMedia'
 import '../styles/components/navbar.scss'
-import Logo  from '../img/LOGO_VARIAÇÕES_07.png'
+import Logo  from '../img/LOGO_VARIAÇÕES_010.png'
 
 const Navbar = () => {
     const navigate = useNavigate()
@@ -16,13 +17,7 @@ const Navbar = () => {
         <figure id='logo'>
             <img src={Logo} onClick={handleClickHome} alt='Logo tem-kilo'/>
         </figure>
-        <section className='page-links'>
-            <ul>
-                <NavLink to="/" >Home</NavLink>
-                <NavLink to="/sobre">Sobre nós</NavLink>
-                <NavLink to="/contato" >Contato</NavLink>
-            </ul>
-        </section>
+        <NavButtons />
         <SocialMedia />
         
     </nav>
