@@ -4,17 +4,9 @@
 .adress{
     display: flex;
     width: 20.3125rem;
-    svg{
-        
-        font-size: 1.25rem;
-        color: $color-wine;
-        cursor: pointer;
-        &:hover{
-            color:$color-yellow
-        }
-    }
     a{
         font-family: $font-title;
+        text-align: center;
         color: $color-wine;
         cursor: pointer;
         &:hover{

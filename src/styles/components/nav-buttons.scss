@@ -2,5 +2,6 @@
 @import '../mixins';
 
 .page-links{
-    @include page-links
+    @include page-links;
+    
 }
