@@ -1,0 +1,12 @@
+@import '../mixins';
+@import '../variables';
+
+.banner-home{
+       @include banner;
+       img{
+        position: absolute;
+        width: 20%;
+        
+       }
+
+}

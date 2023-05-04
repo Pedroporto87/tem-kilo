@@ -1,8 +1,10 @@
-
+import { BannerHome } from "../components/banner-home"
 
 const Home = () => {
   return (
-    <div>Tem Kilo</div>
+    <main>
+      <BannerHome />
+    </main>
   )
 }
 
