@@ -1,0 +1,9 @@
+@import '../mixins';
+@import '../variables';
+
+.banner-contato {
+    @include banner;
+    background-image: url('../../img/tk-10-2.jpg');
+    background-size: cover;
+
+}

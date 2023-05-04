@@ -46,3 +46,17 @@
         }
 }
 
+@mixin banner {
+    align-items: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       height: 60vh;
+       width: 100%;
+       background: url('../../img/tk-25.jpg') center center / cover no-repeat;
+       background-size: cover;
+       background-position: 30% 45%;
+       position: relative;
+       top: 0%;
+}
+

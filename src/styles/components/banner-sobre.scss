@@ -1,0 +1,10 @@
+@import '../mixins';
+@import '../variables';
+
+.banner-sobre{
+    @include banner;
+    background-image: url('../../img/tk-1.jpg');
+    background-position: 30% 65%;
+
+    
+}
