@@ -9,7 +9,9 @@ nav{
     justify-content: space-between;
     max-width: 100%;
     position: sticky;
+    background-color: $color-white;
     top: 0;
+    z-index: 10;
         figure{
             width: 6.25rem;
             height: 6.25rem;
