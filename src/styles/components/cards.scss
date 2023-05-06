@@ -1,0 +1,49 @@
+@import '../mixins';
+@import '../variables';
+
+.cards-title{
+        display: flex;
+        justify-content: center;
+        height: 1.5rem;
+        h1{
+        display: flex;
+        font-family: $font-title;
+        color: $color-wine;
+        height: 1.5rem;
+    }
+}
+.cards-conteiner{
+    @include large-conteiner;
+    height: 19.75rem;
+    justify-content: center; 
+    cursor: grab;
+    .cards{
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        .cards-unit{
+            margin: .625rem;
+            padding: .625rem;
+            width: 17.5rem;
+            flex-direction: column;
+            border: .0625rem solid $color-yellow;
+            h1{
+                font-family: $font-title;
+                text-align: center;
+                color: $color-wine;
+                font-size: 1.25rem;
+            }
+            img{
+                width: 14rem;
+                height: 13rem;
+                border-radius: 50%;
+            }
+            p{
+                font-family: $font-title;
+                color: $color-wine;
+                text-align: center;
+            }
+        }
+    }
+
+}
