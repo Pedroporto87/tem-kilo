@@ -1,4 +1,4 @@
-import Mapa from '../img/Captura de Tela (26).png'
+
 import '../styles/components/contato-conteiner.scss'
 import { Form } from '../components/form'
 
@@ -9,7 +9,7 @@ export const ContatoConteiner = () => {
             <h1>Venha nos visitar!</h1>
             <p>Estr. de Jacarepaguá, 7725, Jacarepaguá, Rio de Janeiro - RJ</p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.2358954171527!2d-43.3443797255807!3d-22.941537939112266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd9e722638417%3A0x9dc37e9bc6a086b!2sTemKilo!5e0!3m2!1spt-BR!2sbr!4v1684364790614!5m2!1spt-BR!2sbr" 
-            width="600" height="600" style={{border:0}} allowfullscreen="" loading="lazy" ></iframe>
+             allowfullscreen="" loading="lazy" ></iframe>
         </section>
         <section className='contato-form'>
             <section className='contato-p'>
