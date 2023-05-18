@@ -9,7 +9,10 @@ export const Endereço = () => {
 
   return (
     <section className='adress'>
-        <a onClick={handleAdress}><SiGooglemaps />  Estr. de Jacarepaguá, 7725 - Freguesia, Rio de Janeiro</a>
+        <a onClick={handleAdress}><SiGooglemaps />  
+        Estr. de Jacarepaguá, 7725  Freguesia, Rio de Janeiro
+        </a>
+        <p>Tel:(21) 2436-1705</p>
     </section>
   )
 }
