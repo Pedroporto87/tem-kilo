@@ -3,6 +3,7 @@
 
 .adress{
     display: flex;
+    flex-direction: column;
     width: 20.3125rem;
     a {
         font-family: $font-title;
@@ -11,6 +12,11 @@
         cursor: pointer;
         &:hover{
             color:$color-yellow
+        }
     }
+    p{
+        font-family: $font-title;
+        text-align: center;
+        color: $color-wine;
     }
 }
