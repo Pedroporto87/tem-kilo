@@ -9,6 +9,7 @@ export const Cards = () => {
     <>
         <section className='cards-title'>
             <h1>Todo dia tem comida boa!</h1>
+            <p>Além de uma farta variedade de pratos quentes e saladas do nosso buffet. Temos todo dia algum prato especial para você! </p>
         </section>
         <section className='cards-conteiner'> 
             <section className='cards'>
