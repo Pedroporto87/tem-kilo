@@ -1,4 +1,4 @@
-import { FaInstagram, FaTiktok, FaFacebook } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp, FaFacebook } from "react-icons/fa";
 import '../styles/components/socialmedia.scss'
 
 const SocialMedia = () => {
@@ -9,14 +9,14 @@ const handleClickFb = () => {
 const handleClickInsta = () => {
     window.location.href='https://www.instagram.com/temkilo_/'
 }
-const handleClickTT = () => {
-    window.location.href='https://www.tiktok.com'
+const handleClickWP = () => {
+    window.location.href="https://api.whatsapp.com/send?phone=5521988399021&text=Texto%20aqui"
 }
 return (
     <section className='social-media'>
         <FaFacebook id='facebook' onClick={handleClickFb}/>
         <FaInstagram id='instagram' onClick={handleClickInsta}/>
-        <FaTiktok id='tiktok' onClick={handleClickTT}/>
+        <FaWhatsapp id='tiktok' onClick={handleClickWP}/>
         
     </section>
   )
