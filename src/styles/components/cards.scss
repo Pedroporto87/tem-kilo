@@ -17,16 +17,33 @@
         p{
             font-family: $font-text;
             color: $color-wine;
-            font-weight: 500;
+            font-weight: 600;
             font-size: 1.25rem;
-            margin-top: .625rem
+            margin-top: .625rem;
+            word-spacing: 0.1875rem;
         }
 }
 .cards-conteiner{
     @include large-conteiner;
-    height: 19.75rem;
+    height: 14.75rem;
     justify-content: center; 
     cursor: grab;
+    ::-webkit-scrollbar{
+        width: .625rem;
+        height: .3125rem;
+    }
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: $color-wine;
+        border-radius: 1.25rem;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: $color-yellow;
+      }
     .cards{
         display: flex;
         overflow-x: auto;
@@ -36,7 +53,6 @@
             padding: .625rem;
             width: 17.5rem;
             flex-direction: column;
-            border: .0625rem solid $color-yellow;
             h1{
                 font-family: $font-title;
                 text-align: center;
@@ -44,8 +60,8 @@
                 font-size: 1.25rem;
             }
             img{
-                width: 14rem;
-                height: 13rem;
+                width: 9rem;
+                height: 8rem;
                 border-radius: 50%;
             }
             p{
@@ -55,5 +71,6 @@
             }
         }
     }
+    
 
 }
