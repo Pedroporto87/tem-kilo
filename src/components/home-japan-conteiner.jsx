@@ -1,5 +1,5 @@
 import '../styles/components/japan-conteiner.scss'
-import JapaImage from '../img/tk-18-2.jpg'
+import  ImageSlider  from './image-slider'
 
 export const JapaConteiner = () => {
   return (
@@ -11,7 +11,7 @@ export const JapaConteiner = () => {
             </p>
         </section>
         <section className='japa-image'>
-            <img src={JapaImage} alt='prato com comida japonesa' />
+            <ImageSlider />
         </section>
     </section>
     
