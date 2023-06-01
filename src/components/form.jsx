@@ -26,16 +26,10 @@ function handleSubmit(event) {
         "template_y1mgcvt",
         formRef.current,
         "8p1FmUfF10_4rztXU"
-      )
-      .then(
-        (res) => {
-          setButtomText("Mensagem enviada com sucesso", () => {
-            setTimeout(() => {
-              setButtomText(false);
-            }, 3000);
-          });
+      ).then(() => {
+          setButtomText("Mensagem enviada")
         },
-        (err) => {
+        () => {
           setButtomText("Sua mensagem não foi enviada");
         }
       );
@@ -47,27 +41,27 @@ function handleSubmit(event) {
     <form className='form' onSubmit={handleSubmit} ref={formRef}>
         <label htmlFor='nome'>Nome:
         <br />
-            <input name={form.nome} type='text' placeholder='Seu Nome' required onChange={handleChange} />
+            <input name='nome' type='text' placeholder='Seu Nome' required onChange={handleChange} />
         </label>
         <br />
         <label htmlFor='email'>E-mail:  
         <br />
-            <input name={form.email} type='email' placeholder='Seu E-mail' required onChange={handleChange} />
+            <input name='email' type='email' placeholder='Seu E-mail' required onChange={handleChange} />
         </label>
         <br />
         <label htmlFor='phone'>Telefone: 
         <br />
-            <input name={form.telefone} type='tel' placeholder='Seu Telefone' required onChange={handleChange} />
+            <input name='telefone' type='tel' placeholder='Seu Telefone' required onChange={handleChange} />
         </label>
         <br />
         <label htmlFor='assunto'>Assunto:  
         <br />
-            <input name={form.assunto} type='text' placeholder='' onChange={handleChange}/>
+            <input name='assunto' type='text' placeholder='' onChange={handleChange}/>
         </label>
         <br />
         <label>Sua Mensagem: 
         <br />
-            <textarea name={form.textbox} type='text' style={{resize: 'none'}} placeholder='Como podemos lhe ajudar!' 
+            <textarea name='textbox' type='text' style={{resize: 'none'}} placeholder='Como podemos lhe ajudar!' 
             onChange={handleChange}
             required /></label>
         <br />
