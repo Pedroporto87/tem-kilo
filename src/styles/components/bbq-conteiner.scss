@@ -8,14 +8,38 @@
     margin: 0.3125rem 1.25rem;
     padding: 0.3125rem 0.9375rem;
     .bbq-image{
-        margin: 1rem;
-        flex: 1;
-        height: 31.25rem;
-        width: 21.875rem;
-        img{
-            max-width: 100%;
-            max-height: 100%;
-            border-radius: 0.5rem;
+        display: grid;
+        grid-template-columns: repeat(4, 9rem);
+        grid-template-rows: repeat(4, 8rem);
+        grid-gap: 15px;
+        .grid-img{
+            width: 15.625rem;
+            height: 15.625rem;
+            object-fit: cover;
+        }
+        .grid-item-1{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .grid-item-2{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .grid-item-3{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        .grid-item-4{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 4;
         }
     }
     .bbq-texto {
