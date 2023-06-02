@@ -38,6 +38,13 @@ export default function ImageSlider() {
             )}
             </div>
         )})}
+        <section className="slideshowDots">
+        {japaSlides.map((_, idx, slide) => (
+          <div key={idx} 
+          className={`slideshowDot${slide.id === idx ? "active" : ""}`} 
+          onClick={() => {setCurrent(idx)}}></div>
+        ))}
+      </section>
     </section>
   )
 }

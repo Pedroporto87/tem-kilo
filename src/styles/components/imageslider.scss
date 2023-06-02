@@ -4,6 +4,7 @@
 .imageslider{
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     .button-right {
@@ -31,8 +32,23 @@
         user-select: none;
         &:hover{
             color: $color-yellow;
+            }
         }
-        }
+        .slideshowDots{
+             text-align: center;
+              .slideshowDot {
+                display: inline-block;
+                height: 15px;
+                width: 15px;
+                border-radius: 50%;
+                cursor: pointer;
+                margin: 15px 7px 0px;
+                background-color: #c4c4c4;
+                &:active,:hover {
+                    background-color: $color-wine;
+                }
+              }}
+        
   }
   
   
