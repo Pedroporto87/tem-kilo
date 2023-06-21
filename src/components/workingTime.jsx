@@ -5,8 +5,8 @@ export const WorkingTime = () => {
     <section className="working-time">
         <h1>Horário de funcionamento</h1>
         <ul>
-            <li>Segunda a Sexta ------ 11:00 ás 17:00</li>
-            <li>Sábado e domingo --- 11:00 ás 17:00</li>
+            <li>Segunda a Sexta ------ 11:00 ás 17:30</li>
+            <li>Sábado e domingo --- 11:00 ás 17:30</li>
         </ul>
     </section>
   )
