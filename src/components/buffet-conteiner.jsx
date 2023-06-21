@@ -1,0 +1,27 @@
+import '../styles/components/buffet-conteiner.scss'
+import { BuffetImageSlider } from './buffet-image-slider'
+
+export const BuffetConteiner = () => {
+  return (
+    <section className='buffet-conteiner'>
+        <section className='buffet-image'>
+            <BuffetImageSlider />
+        </section> 
+        <section className='buffet-text'>
+            <h1>Buffet</h1>
+            <p>O Restaurante Tem Kilo é conhecido por sua variedade e qualidade dos pratos,
+                 em seu buffet a quilo são encontradas diversas opções de saladas, pratos quentes
+                 churrasco e culinaria japonesa.
+            </p>
+            <p>Outro destaque são as deliciosas opções de sobremesas, também disponíveis a peso. 
+                Sorvetes, doces típicos, mousses e tortas de dar água na boca! Você não vai resistir!</p>
+            <p>Preços:</p>
+            <p>
+            Segunda a Sexta - R$81,90 <br />
+            Sabados, domingos e feriados - R$84,90<br />
+            Sobremesas - R$00,00<br />
+            Japonês - R$129,90</p>
+        </section>
+    </section>
+    ) 
+}

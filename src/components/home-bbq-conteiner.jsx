@@ -1,7 +1,7 @@
 import '../styles/components/bbq-conteiner.scss'
 import BbqImage from '../img/tk-203.jpg'
 import BbqImage2 from  '../img/previa corona-9.jpg'
-import BbqImage3 from '../img/tk-5.jpg'
+import BbqImage3 from '../img/tk-8.jpg'
 import BbqImage4 from '../img/tk-26.jpg'
 export const BbqConteiner = () => {
   return (

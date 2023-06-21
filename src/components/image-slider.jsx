@@ -4,7 +4,8 @@ import '../styles/components/imageslider.scss'
 
 
 export default function ImageSlider() {
-   const [current, setCurrent] = useState(0)
+   const [current, setCurrent] = useState(0);
+   
   
 
     const japaSlides = [
