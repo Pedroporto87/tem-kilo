@@ -22,16 +22,16 @@ export const BuffetImageSlider = () => {
 
     useEffect(() => {
         resetTimeout()
-        timeoutRef.current =setTimeout(
+        timeoutRef.current = setTimeout(
           () =>
             setIndex((prevIndex) =>
               prevIndex === length - 1 ? 0 : prevIndex + 1
             ),
           delay
-        );
+        ),[index];
     
         return () => {resetTimeout();};
-      }, [index]);
+      }, );
 
   return (
  <section className="buffet-image-slider">

@@ -14,8 +14,8 @@ export const cards = [
     {
         id: 3,
         name: 'Quarta',
-        conteudo: 'Camarão',
-        icon: '../cards-img/camarao.jpg',
+        conteudo: 'Bacalhau',
+        icon: '../cards-img/bacalhau.jpg',
     },
     {
         id: 4,
@@ -26,8 +26,8 @@ export const cards = [
     {
         id: 5,
         name: 'Sexta',
-        conteudo: 'Bacalhau',
-        icon: '../cards-img/bacalhau.jpg'
+        conteudo: 'Camarão',
+        icon: '../cards-img/camarao.jpg'
     },
     {
         id: 6,
