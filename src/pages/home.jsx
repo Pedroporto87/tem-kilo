@@ -12,8 +12,8 @@ const Home = () => {
       <HomeConteiner />
       <Cards />
       <HomeBanner />
-      <JapaConteiner />
       <BbqConteiner />
+      <JapaConteiner />
     </main>
   )
 }

@@ -12,11 +12,14 @@ export const HomeConteiner = () => {
         </section>
         <section className='home-texto'>
             <h1 className='home-texto-titulo'>Sobre nós</h1>
-            <p className='home-texto-paragrafo'> O Restaurante Beco do Alemão é conhecido por sua variedade e qualidade dos pratos,
-                 em seu buffet a quilo são encontradas diversas opções de saladas e pratos quentes, 
-                 além de churrasco, comida japonesa e saladas personalizadas e sobremesas irresistiveis. 
-                 Também contamos com um charmoso bar com opções de drinks,
-                 petiscos e pratos a la carte deliciosos.</p>
+            <p className='home-texto-paragrafo'> Quem somos
+Desde 1968 servindo comida de verdade no coração da freguesia!
+Funcionamos com conceito de restaurante por quilo com comida saborosa, diversificada e de qualidade. Além, é claro, do atendimento gentil e ambiente acolhedor.
+Liberdade é escolher o que comer!
+Aqui todo mundo pode escolher o que comer e sair satisfeito! 
+No nosso buffet você encontra uma ilha exclusiva para saladas alem de poder personalizar sua salada na hora, variedade de pratos quentes (comida brasileira e internacional), na nossa churrasqueira o melhor do churrasco, os melhores salgadinhos e a nossa famosa comida japonesa! 
+<br />
+Servimos qualidade, variedade e tradição a mais de 50 anos!</p>
             <Link to="/sobre" className='home-link'>Saiba mais...</Link>
         </section>
     </section>

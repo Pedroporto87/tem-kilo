@@ -3,7 +3,7 @@ export const cards = [
         id: 1,
         name: 'Segunda',
         conteudo: 'Cozinha Árabe',
-        icon: '../cards-img/arabe-food.jpg' 
+        icon: '../cards-img/cozinha-arabe-2.png' 
     },
     {
         id: 2,
@@ -39,7 +39,7 @@ export const cards = [
         id: 7,
         name: 'Domingo',
         conteudo: 'Cozido',
-        icon: '../cards-img/cozido-modificado.jpg'
+        icon: '../cards-img/cozido-portugues.png'
     }
     //{
     //    id: 8,
