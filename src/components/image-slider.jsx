@@ -1,51 +1,61 @@
-import { useState } from 'react'
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
+import { useState, useEffect, useRef } from 'react'
 import '../styles/components/imageslider.scss'
 
+    export const ImageSlider = () => {
+      const [index, setIndex] = useState(0);
+      const timeoutRef = useRef(null);
 
-export default function ImageSlider() {
-   const [current, setCurrent] = useState(0);
-   
-  
 
-    const japaSlides = [
+   const japaSlides = [
         {id: 1, image: '../../slider/tk-2.jpg'},
         {id: 2, image: '../../slider//tk-17-2.jpg'},
         {id: 3, image: '../../slider/tk-3.jpg'},
         {id: 4, image: '../../slider/tk-23.jpg'},
     ]
 
-    const nextSlide = () => {
-      setCurrent(current === japaSlides.length - 1 ? 0 : current + 1);
-    };
   
-    const prevSlide = () => {
-      setCurrent(current === 0 ? japaSlides.length - 1 : current - 1);
-    };
-
-    if (!Array.isArray(japaSlides) || japaSlides.length <= 0) {
-      return null;
-    }
-
-  return (
-  <section className='imageslider'>
-    <FaChevronLeft className='button-left' onClick={prevSlide}/>
-    <FaChevronRight className='button-right' onClick={nextSlide} />
-        {japaSlides.map((slide, index) => {
-          return (
-            <div className={index === current ? 'slide active' : 'slide'} key={slide.id}>
-              {index === current && (
-              <img src={slide.image} className='image' />
-            )}
-            </div>
-        )})}
-        <section className="slideshowDots">
-        {japaSlides.map((_, idx, slide) => (
-          <div key={idx} 
-          className={`slideshowDot${slide.id === idx ? "active" : ""}`} 
-          onClick={() => {setCurrent(idx)}}></div>
-        ))}
+      const delay = 2500;
+      const length = japaSlides.length
+  
+      function resetTimeout() {
+          if (timeoutRef.current) {
+            clearTimeout(timeoutRef.current);
+          }
+        }
+  
+      useEffect(() => {
+          resetTimeout()
+          timeoutRef.current = setTimeout(
+            () =>
+              setIndex((prevIndex) =>
+                prevIndex === length - 1 ? 0 : prevIndex + 1
+              ),
+            delay
+          ),[index];
+      
+          return () => {resetTimeout();};
+        }, );
+  
+    return (
+   <section className="buffet-image-slider">
+      <section className="buffet-image-slide" style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>
+          {japaSlides.map((image) =>{
+           return (
+              <div className="slide" key={image.id}>
+                  <img src={image.image} />
+              </div>
+          )})}
       </section>
-    </section>
-  )
-}
+      <section className="slideshowDots">
+          {japaSlides.map((_, idx) => (
+            <div key={idx} className={`slideshowDot${index === idx ? " active" : ""}`} 
+            onClick={() => {
+              setIndex(idx);
+            }}></div>
+          ))}
+      
+      </section>
+   </section>
+    )
+  }
+  

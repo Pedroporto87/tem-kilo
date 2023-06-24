@@ -1,5 +1,5 @@
 import '../styles/components/japan-conteiner.scss'
-import  ImageSlider  from './image-slider'
+import  {ImageSlider}  from './image-slider'
 
 export const JapaConteiner = () => {
   return (
