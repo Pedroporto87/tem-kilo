@@ -1,18 +1,14 @@
 import { useEffect, useState, useRef } from 'react'
 import '../styles/components/buffet-image-slider.scss'
+import { buffetImageSlider } from '../buffet-imageSlder';
+
 
 export const BuffetImageSlider = () => {
     const [index, setIndex] = useState(0);
     const timeoutRef = useRef(null);
 
-    const imageSlider = [
-        {id:1, image:'../../buffet-slider/freguesia-1.jpg' },
-        {id:2, image: '../../buffet-slider/freguesia-4.jpg' },
-        {id:3, image: '../../buffet-slider/tk-13.jpg'},
-        {id:4, image: '../../buffet-slider/tk-5.jpg'}
-    ]
     const delay = 2500;
-    const length = imageSlider.length
+    const length = buffetImageSlider.length
 
     function resetTimeout() {
         if (timeoutRef.current) {
@@ -36,7 +32,7 @@ export const BuffetImageSlider = () => {
   return (
  <section className="buffet-image-slider">
     <section className="buffet-image-slide" style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>
-        {imageSlider.map((image) =>{
+        {buffetImageSlider.map((image) =>{
          return (
             <div className="slide" key={image.id}>
                 <img src={image.image} />
@@ -44,7 +40,7 @@ export const BuffetImageSlider = () => {
         )})}
     </section>
     <section className="slideshowDots">
-        {imageSlider.map((_, idx) => (
+        {buffetImageSlider.map((_, idx) => (
           <div key={idx} className={`slideshowDot${index === idx ? " active" : ""}`} 
           onClick={() => {
             setIndex(idx);
