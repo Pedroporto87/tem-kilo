@@ -3,10 +3,10 @@
 
 .banner-home{
        @include banner;
+       background-image: url ('../../../public/banner-home.jpg');
        img{
         position: absolute;
         width: 20%;
-        
        }
 
 }
