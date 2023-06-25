@@ -12,7 +12,7 @@ export const ContatoConteiner = () => {
         </section>
         <section className='contato-form'>
             <section className='contato-p'>
-                <h1>Entre em contato com a gente!</h1>
+                <h1>Entre em contato conosco!</h1>
                 <p> Oferecemos um menu diferenciado, com opções variadas. Entre em contato conosco e solicite um orçamento!</p>
                 <p> Tanto eventos pessoais e corporativos como celebrações podem ser reservados. Entre em contato:  2436-1705</p>
                 <h1>...ou por e-mail</h1>
