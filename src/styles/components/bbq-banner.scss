@@ -1,0 +1,11 @@
+@import '../mixins';
+@import '../variables';
+
+.bbq-banner{
+    @include banner;
+    background-image: url('../../img/previa-14.jpg');
+    background-position: 30% 30%;
+    background-size: cover;
+    height: 70vh;
+    
+}

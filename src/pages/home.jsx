@@ -4,6 +4,7 @@ import { Cards } from '../components/cards'
 import { HomeBanner } from "../components/home-banner"
 import { JapaConteiner } from "../components/home-japan-conteiner"
 import { BbqConteiner } from "../components/home-bbq-conteiner"
+import { BbqBanner } from "../components/bbq-banner"
 
 const Home = () => {
   return (
@@ -11,8 +12,9 @@ const Home = () => {
       <BannerHome />
       <HomeConteiner />
       <Cards />
-      <HomeBanner />
+      <BbqBanner/>
       <BbqConteiner />
+      <HomeBanner />
       <JapaConteiner />
     </main>
   )
