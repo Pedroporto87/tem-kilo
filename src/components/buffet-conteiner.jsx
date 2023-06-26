@@ -18,7 +18,7 @@ export const BuffetConteiner = () => {
             <p>Preços:<br/>
             Segunda a Sexta - R$81,90 <br />
             Sabados, domingos e feriados - R$84,90<br />
-            Sobremesas - R$00,00<br />
+            Sobremesas - R$86,90<br />
             Japonês - R$129,90</p>
             <p>Horário de Funcionamento:<br/>
             Todos os dias, inclusive feriados, das 11:00 as 17:30</p>
