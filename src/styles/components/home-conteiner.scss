@@ -7,11 +7,22 @@
     background-color: #fff;
     margin: 0.3125rem 1.25rem;
     padding: 0.3125rem 0.9375rem;
+    @media screen {
+        @media(max-width:375px){
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+        }}
     .home-image{
         margin: 1rem;
         flex: 1;
         height: 31.25rem;
         width: 21.875rem;
+        @media screen {
+            @media(max-width:375px){
+                margin: $tenpxw;
+                padding: $tenpxw;
+            }}
         img{
             max-width: 100%;
             max-height: 100%;
@@ -20,8 +31,8 @@
     }
     .home-texto {
         flex: 1;
-        height: 31.25rem;
-        width: 21.875rem;
+        height: 36.603221083455345vw;
+        width: 56vh;
         margin: 1rem;
         h1{
             text-align: center;
@@ -31,6 +42,10 @@
             color: $color-wine;
             align-items: center;
             font-size: 2.5rem;
+            @media screen {
+                @media(max-width:375px){
+                    font-size: 1.5rem;
+                }}
         }
         p{
             margin-top: 2rem;
@@ -39,6 +54,10 @@
             word-spacing: 0.1875rem;
             font-size: 1.5rem;
             font-weight: 500;
+            @media screen {
+                @media(max-width:375px){
+                    font-size: 1rem;
+                }}
         }
         .home-link{
             display: flex;

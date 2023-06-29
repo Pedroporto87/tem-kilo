@@ -1,11 +1,26 @@
+@import '../variables';
+@import '../mixins';
+
 figure{
-    width: 6.25rem;
-    height: 6.25rem;
+    width: $hundredpxw;
+    height: $hundredpxh;
     justify-content: flex-start;
     margin-left: 1.875rem;
+    @media screen {
+        @media(max-width:375px){
+            width: $hundredpxw;
+            height: $hundredpxh;
+            margin-left: 0;
+        }}
     img{
-        width: 6.25rem;
-        height: 6.25rem;
+        width: $hundredpxw;
+        height: $hundredpxh;
         cursor: pointer;
+        @media screen {
+            @media(max-width:375px){
+                width: 19vw;
+                height: 16vh;
+                
+            }}
     }
 }

@@ -7,15 +7,33 @@
     background-color: #fff;
     margin: 1.25rem;
     padding: 0.3125rem 0.9375rem;
+    @media screen {
+        @media(max-width:375px){
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+        }}
     .bbq-image{
         display: grid;
         grid-template-columns: repeat(4, 9rem);
         grid-template-rows: repeat(4, 8rem);
         grid-gap: 15px;
+        @media screen {
+            @media(max-width:375px){
+                grid-template-columns: repeat(4, 34.541727672vw);
+                grid-template-rows: repeat(4, 9.48vh);
+                grid-gap: 1.0980966325036603vw;
+                margin: 1rem;
+            }}
         .grid-img{
-            width: 15.625rem;
-            height: 15.625rem;
+            width: 18.301610541727673vw;
+            height: 140vh;
             object-fit: cover;
+            @media screen {
+                @media(max-width:375px){
+                    width: 20vw;
+                    height: 20vh
+                }}
         }
         .grid-item-1{
             grid-column-start: 1;
