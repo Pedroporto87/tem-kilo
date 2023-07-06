@@ -20,7 +20,7 @@
         grid-gap: 15px;
         @media screen {
             @media(max-width:375px){
-                grid-template-columns: repeat(4, 34.541727672vw);
+                grid-template-columns: repeat(2, 1fr);
                 grid-template-rows: repeat(4, 9.48vh);
                 grid-gap: 1.0980966325036603vw;
                 margin: 1rem;
