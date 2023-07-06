@@ -12,6 +12,9 @@
             flex-direction: column;
             margin: 0;
             padding: 0;
+            justify-content: center;
+            align-items: center;
+            height: auto;
         }}
     .home-image{
         margin: 1rem;
@@ -70,12 +73,15 @@
             text-transform: uppercase;
             align-items: center;
             justify-content: center;
-            
             cursor: pointer;
             text-decoration: none;
             &:hover{
                 color: $color-yellow;
             }
+            @media screen {
+                @media(max-width:375px){
+                    margin: 8vh;
+                }}
         }
     }
 

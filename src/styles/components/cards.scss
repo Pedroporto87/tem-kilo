@@ -15,12 +15,18 @@
             height: 1.5rem;  
         }
         p{
+            display: flex;
             font-family: $font-text;
             color: $color-wine;
             font-weight: 600;
             font-size: 1.25rem;
             margin-top: .625rem;
             word-spacing: 0.1875rem;
+            @media screen {
+                @media(max-width:375px){
+                  width: 90%;
+                  margin-bottom: 20px;
+                }}
         }
 }
 .cards-conteiner{
@@ -28,6 +34,10 @@
     height: 14.75rem;
     justify-content: center; 
     cursor: grab;
+    @media screen {
+        @media(max-width:375px){
+          margin-bottom: 10px;
+        }}
     ::-webkit-scrollbar{
         width: .625rem;
         height: .3125rem;
@@ -53,6 +63,14 @@
             padding: .625rem;
             width: 17.5rem;
             flex-direction: column;
+            @media screen {
+                @media(max-width:375px){
+                  width: 14rem;
+                  padding: 0%;
+                  margin: .9375rem .3125rem;
+                  
+                }}
+
             h1{
                 font-family: $font-title;
                 text-align: center;

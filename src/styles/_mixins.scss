@@ -16,9 +16,11 @@
 
 @mixin social-media {
         @include small-conteiner;
+        margin-top: 6px;
         margin-right: $thirtypxw;
         gap: $tenpxw;
         align-items: center;
+        justify-content: center;
         @media screen {
             @media(max-width:375px){
                 flex-direction: column;
