@@ -15,15 +15,13 @@
 }
 
 @mixin social-media {
-        @include small-conteiner;
-        
+        @include small-conteiner; 
         margin-right: $thirtypxw;
         gap: $tenpxw;
         align-items: center;
         justify-content: center;
         @media screen {
             @media(max-width:375px){
-                margin-top: none;
                 flex-direction: column;
                 margin-right: none;
                 width: $hundredpxw;
