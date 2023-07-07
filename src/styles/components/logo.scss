@@ -2,9 +2,9 @@
 @import '../mixins';
 
 figure{
+    display: flex;
     width: $hundredpxw;
     height: $hundredpxh;
-    justify-content: flex-start;
     margin-left: 1.875rem;
     align-items: center;
     justify-content: center;
