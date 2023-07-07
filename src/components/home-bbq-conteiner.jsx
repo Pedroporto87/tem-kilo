@@ -7,18 +7,17 @@ export const BbqConteiner = () => {
   return (
     <section className='bbq-conteiner'>
         <section className='bbq-image'>
-            <figure className='grid-item-1'>
+            
                 <img src={BbqImage} className='grid-img' alt='foto de uma picanha' />
-            </figure>
-            <figure className='grid-item-2'>
+            
+            
                 <img src={BbqImage2} className='grid-img' alt='foto de uma picanha' />
-            </figure>
-            <figure className='grid-item-3'>
+            
+            
                 <img src={BbqImage3} className='grid-img' alt='foto de uma picanha' />
-            </figure>
-            <figure className='grid-item-4'>
+            
                 <img src={BbqImage4} className='grid-img' alt='foto de uma picanha' /> 
-            </figure>
+            
             
         </section>
     <section className='bbq-texto'>
