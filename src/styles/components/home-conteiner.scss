@@ -37,6 +37,10 @@
         height: 36.603221083455345vw;
         width: 56vh;
         margin: 1rem;
+        @media screen {
+            @media(max-width:375px){
+                width: 80%;
+            }}
         h1{
             text-align: center;
             font-weight: bold;
