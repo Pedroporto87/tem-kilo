@@ -12,4 +12,10 @@
         flex-direction: column;
     }
     
+    }
+    .footer-endereço{
+        @media screen {
+            @media(max-width:375px){
+               display: none;
+            }}
 }

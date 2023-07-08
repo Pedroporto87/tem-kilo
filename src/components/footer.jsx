@@ -8,8 +8,8 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <LogoImage />
-      <Endereço />
-      <WorkingTime />
+      <Endereço className='footer-endereço' />
+      <WorkingTime className='footer-horarios' />
       <SocialMedia />
     </footer>
   )
