@@ -7,6 +7,14 @@
     background-color: #fff;
     margin: 0.3125rem 1.25rem;
     padding: 0.3125rem 0.9375rem;
+    @media screen {
+        @media(max-width:375px){
+           flex-direction: column;
+           margin: 0;
+           justify-content: center;
+           align-items: center;
+           height: auto;
+        }}
     .contato-image{
         display: flex;
         flex-direction: column;
@@ -14,6 +22,11 @@
         flex: 1;
         height: 43.75rem;
         width: 21.875rem;
+        @media screen {
+            @media(max-width:375px){
+               width: 80%;
+               height: 5rem;
+            }}
         h1{
             font-family: $font-title;
             color: $color-wine;
@@ -45,6 +58,11 @@
         flex-direction: column;
         flex: 1;
         padding-left: 1.25rem;
+        @media screen {
+            @media(max-width:375px){
+               width: 80%;
+               height: auto;
+            }}
         .contato-p{
             display: flex;
             flex-direction: column;
@@ -56,6 +74,10 @@
                 color: $color-wine;
                 font-size: 1.17em;
                 margin-bottom: 1rem;
+                @media screen {
+                    @media(max-width:375px){
+                        font-size: 1.5rem;
+                    }}
             }
             p{
                 margin-top: 1.7rem;
@@ -64,9 +86,14 @@
                 font-size: 1.25rem;
                 color: $color-wine;
                 word-spacing: 0.1875rem;
+                @media screen {
+                    @media(max-width:375px){
+                        font-size: 1rem;
+                        font-weight: 700;
+                    }}
+                }
             }
         }
 
     }
 
-}

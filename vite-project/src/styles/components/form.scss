@@ -6,6 +6,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media screen {
+        @media(max-width:375px){
+           width: 80%;
+        }}
     label{
         font-family: $font-text;
         color: $color-wine;
