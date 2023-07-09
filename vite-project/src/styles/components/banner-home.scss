@@ -1,0 +1,20 @@
+@import '../mixins';
+@import '../variables';
+
+.banner-home{
+       @include banner;
+       background-image: url ('../../img/banner-home.jpg');
+       @media screen {
+              @media(max-width:375px){
+                  background-position: 50% 45%;
+              }}
+       img{
+        position: absolute;
+        width: 20%;
+        @media screen {
+              @media(max-width:375px){
+                 width: 40%;
+              }}
+       }
+
+}
