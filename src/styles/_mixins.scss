@@ -1,0 +1,81 @@
+
+@mixin small-conteiner{
+    display: flex;
+    width: $hundredpxw;
+    height: $hundredpxh;
+}
+
+@mixin large-conteiner {
+    display: flex;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 12.5rem;
+}
+
+@mixin social-media {
+        @include small-conteiner; 
+        margin-right: $thirtypxw;
+        gap: $tenpxw;
+        align-items: center;
+        justify-content: center;
+        @media screen {
+            @media(max-width:375px){
+                flex-direction: column;
+                margin-right: none;
+                width: $hundredpxw;
+                height: $hundredpxh;
+                gap: $tenpxw;
+            }}
+            svg{
+            font-size: $hundredpxw;
+            color: $color-wine;
+            cursor: pointer;
+            @media screen {
+            @media(max-width:375px){
+               font-size: $nintypxw;
+            }}
+            &:hover{
+                color:$color-yellow
+            }
+        }
+   }
+
+@mixin page-links{
+    display: flex;
+    width: 21.96vw;
+    align-items: center;
+    justify-content: center;
+    @media screen {
+    @media(max-width:375px){
+        width: 7.32vw;
+        height: 16vh;
+        margin-left: 2.19vw;
+    }}
+     a{
+        padding: 0.366vw;
+        text-decoration: none;
+        color: $color-wine;
+        font-family: $font-title;
+        cursor: pointer;
+            &:hover{
+                color: $color-yellow
+            }
+        }
+}
+
+@mixin banner {
+       align-items: center;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       height: 70vh;
+       width: 100%;
+       background: url('../../img/banner-home.jpg') center center / cover no-repeat;
+       background-size: cover;
+       background-position: 30% 45%;
+       position: relative;
+       top: 0%;
+}
+
