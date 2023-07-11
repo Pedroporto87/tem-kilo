@@ -1,0 +1,17 @@
+@import '../variables';
+@import '../mixins';
+
+
+nav{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    position: sticky;
+    background-color: $color-white;
+    top: 0;
+    z-index: 10;
+        
+
+}

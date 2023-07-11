@@ -1,0 +1,96 @@
+@import '../mixins';
+@import '../variables';
+
+.cards-title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 1.5rem;
+            margin-bottom: 1.5625rem;
+        h1{
+            display: flex;
+            font-family: $font-title;
+            color: $color-wine;
+            height: 1.5rem;  
+        }
+        p{
+            display: flex;
+            font-family: $font-text;
+            color: $color-wine;
+            font-weight: 600;
+            font-size: 1.25rem;
+            margin-top: .625rem;
+            word-spacing: 0.1875rem;
+            @media screen {
+                @media(max-width:375px){
+                  width: 80%;
+                  font-size: 1rem;
+                  font-weight: 700;
+                  margin-bottom: 20px;
+                }}
+        }
+}
+.cards-conteiner{
+    @include large-conteiner;
+    height: 14.75rem;
+    justify-content: center; 
+    cursor: grab;
+    @media screen {
+        @media(max-width:375px){
+          margin-bottom: 10px;
+        }}
+    ::-webkit-scrollbar{
+        width: .625rem;
+        height: .3125rem;
+    }
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: $color-wine;
+        border-radius: 1.25rem;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: $color-yellow;
+      }
+    .cards{
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        .cards-unit{
+            margin: .625rem;
+            padding: .625rem;
+            width: 17.5rem;
+            flex-direction: column;
+            @media screen {
+                @media(max-width:375px){
+                  width: 14rem;
+                  padding: 0%;
+                  margin: .9375rem .3125rem;
+                  
+                }}
+
+            h1{
+                font-family: $font-title;
+                text-align: center;
+                color: $color-wine;
+                font-size: 1.25rem;
+            }
+            img{
+                width: 9rem;
+                height: 8rem;
+                border-radius: 50%;
+            }
+            p{
+                font-family: $font-title;
+                color: $color-wine;
+                text-align: center;
+            }
+        }
+    }
+    
+
+}
