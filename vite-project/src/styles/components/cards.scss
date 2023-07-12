@@ -22,9 +22,13 @@
             font-family: $font-title;
             color: $color-wine;
             height: 1.5rem;
+            @media screen{
             @media(max-width:425px){
               font-size: 1.7rem;
-          }  
+            }
+            @media(max-width:375px){
+              font-size: 1.5rem;
+          }}  
         }
         p{
             display: flex;
