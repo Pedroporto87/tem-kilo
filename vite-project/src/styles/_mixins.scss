@@ -85,5 +85,12 @@
        background-position: 30% 45%;
        position: relative;
        top: 0%;
+       @media screen {
+        @media(max-width:425px){
+            height: 50vh;
+        }
+        @media(max-width:375px){
+            height: 35vh;
+        }}
 }
 
