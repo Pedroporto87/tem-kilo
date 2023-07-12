@@ -38,6 +38,7 @@ function handleSubmit(event) {
 
 
   return (
+    <>
     <form className='form' onSubmit={handleSubmit} ref={formRef}>
         <label htmlFor='nome'>Nome:
         <br />
@@ -65,7 +66,11 @@ function handleSubmit(event) {
             onChange={handleChange}
             required /></label>
         <br />
-        <button>{buttomText}</button>
-    </form>
+        </form>
+        <section className='button-conteiner'>
+          <button className='button'>{buttomText}</button>
+        </section>
+        
+      </>
   )
 }

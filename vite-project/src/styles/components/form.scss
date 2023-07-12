@@ -64,7 +64,12 @@
             border-color: $color-yellow;
         }
     }
-    button{
+}
+.button-conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    .button{
         width: 7.8125rem;
         height: 1.875rem;
         background-color: #fff;
