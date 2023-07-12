@@ -59,6 +59,7 @@
         width: 21.875rem;
         @media screen {
             @media(max-width:375px){
+                order: 1;
                 margin: $tenpxw;
                 padding: $tenpxw;
             }}
