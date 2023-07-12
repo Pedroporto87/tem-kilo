@@ -1,1 +1,99 @@
+@import '../mixins';
+@import '../variables';
+
+.contato-conteiner {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    margin: 0.3125rem 1.25rem;
+    padding: 0.3125rem 0.9375rem;
+    @media screen {
+        @media(max-width:375px){
+           flex-direction: column;
+           margin: 0;
+           justify-content: center;
+           align-items: center;
+           height: auto;
+        }}
+    .contato-image{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        flex: 1;
+        height: 43.75rem;
+        width: 21.875rem;
+        @media screen {
+            @media(max-width:375px){
+               width: 80%;
+               height: 5rem;
+            }}
+        h1{
+            font-family: $font-title;
+            color: $color-wine;
+            justify-content: center;
+            text-align: center;
+        }
+        p{
+            font-family: $font-text;
+            font-size: 1.25rem;
+            color: $color-wine;
+            font-weight: 600;
+            justify-content: center;
+            text-align: center;
+            word-spacing: 0.1875rem;
+            margin-bottom: .625rem;
+        }
+        iframe{
+            margin-top: 3rem;
+            width:37.5rem;
+            height: 37.5rem;
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 0.5rem;
+            border: none;
+        }
+    }
+    .contato-form{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding-left: 1.25rem;
+        @media screen {
+            @media(max-width:375px){
+               width: 80%;
+               height: auto;
+            }}
+        .contato-p{
+            display: flex;
+            flex-direction: column;
+            margin-top: 1em ;
+            h1{
+                justify-content: center;
+                text-align: center;
+                font-family: $font-title;
+                color: $color-wine;
+                font-size: 1.17em;
+                margin-bottom: 1rem;
+                @media screen {
+                    @media(max-width:375px){
+                        font-size: 1.5rem;
+                    }}
+            }
+            p{
+                margin-top: 1.7rem;
+                font-family: $font-text;
+                font-weight: 600;
+                font-size: 1.25rem;
+                color: $color-wine;
+                word-spacing: 0.1875rem;
+                @media screen {
+                    @media(max-width:375px){
+                        font-size: 1rem;
+                        font-weight: 700;
+                    }}
+                }
+            }
+        }
+
+    }
 
