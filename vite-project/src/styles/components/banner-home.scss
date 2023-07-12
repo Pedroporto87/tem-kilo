@@ -5,6 +5,9 @@
        @include banner;
        background-image: url ('../../img/banner-home.jpg');
        @media screen {
+              @media(max-width:425px){
+                     background-position: 57% 45%;
+                 }
               @media(max-width:375px){
                   background-position: 50% 45%;
               }}
@@ -12,6 +15,9 @@
         position: absolute;
         width: 20%;
         @media screen {
+              @media(max-width:425px){
+                     width: 40%;
+                  }
               @media(max-width:375px){
                  width: 40%;
               }}

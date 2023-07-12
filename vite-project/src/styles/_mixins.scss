@@ -21,6 +21,11 @@
         align-items: center;
         justify-content: center;
         @media screen {
+            @media(max-width:425px){
+                width: 3.2rem;
+                height: $hundredpxh;
+                gap: $tenpxw;
+             }
             @media(max-width:375px){
                 flex-direction: column;
                 margin-right: none;
@@ -33,7 +38,10 @@
             color: $color-wine;
             cursor: pointer;
             @media screen {
-            @media(max-width:375px){
+                @media(max-width:425px){
+                    font-size: 40px;
+                 }
+                @media(max-width:375px){
                font-size: $nintypxw;
             }}
             &:hover{
