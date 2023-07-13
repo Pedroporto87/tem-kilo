@@ -24,9 +24,11 @@
             height: 1.5rem;
             @media screen{
             @media(max-width:425px){
+              margin: .625rem 0;
               font-size: 1.5rem;
             }
             @media(max-width:375px){
+              margin: .625rem 0;
               font-size: 1.5rem;
           }}  
         }

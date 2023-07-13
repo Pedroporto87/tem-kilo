@@ -4,6 +4,7 @@
 .working-time{
     display: flex;
     flex-direction: column;
+    line-height: 1.375rem;
     @media screen {
         @media(max-width:425px){
             margin-left: 35px;
@@ -33,6 +34,9 @@
             font-weight: 500;
             font-size: 0.8rem;
             @media screen {
+                @media(max-width:425px){
+                    font-size: 0.5rem;
+                }
                 @media(max-width:375px){
                     font-size: 0.5rem;
                 }}
