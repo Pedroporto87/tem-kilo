@@ -7,6 +7,9 @@
     width: 20.312rem;
     line-height: 22px;
     @media screen {
+        @media(max-width:768px){
+            display: none;
+          }
         @media(max-width:425px){
             display: none;
           }
@@ -19,6 +22,10 @@
         text-align: center;
         color: $color-wine;
         cursor: pointer;
+        @media screen {
+            @media(max-width:768px){
+                font-size: 0.5rem;
+              }}
         &:hover{
             color:$color-yellow
         }

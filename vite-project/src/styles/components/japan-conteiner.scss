@@ -8,6 +8,9 @@
     margin: 0.3125rem 1.25rem;
     padding: 0.3125rem 0.9375rem;
     @media screen {
+        @media(max-width:768px){
+            height: 18.75rem;
+        }
         @media(max-width:425px){
             flex-direction: column;
             margin: 0;
@@ -30,6 +33,10 @@
         width: 21.875rem;
         margin: 1rem;
         @media screen {
+            @media(max-width:768px){
+                height: auto;
+                width: 80%;
+            }
             @media(max-width:425px){
                 width: 80%;
             }
@@ -45,6 +52,9 @@
             align-items: center;
             font-size: 2.5rem;
             @media screen {
+                @media(max-width:768px){
+                    font-size: 1.75rem;
+                }
                 @media(max-width:425px){
                     font-size: 1.5rem;
                 }
@@ -60,6 +70,10 @@
             font-size: 1.5rem;
             font-weight: 500;
             @media screen {
+                @media(max-width:768px){
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                }
                 @media(max-width:425px){
                     font-size: 1.2rem;
                     font-weight: 600;
@@ -76,6 +90,10 @@
         height: 31.25rem;
         width: 21.875rem;
         @media screen {
+            @media(max-width:768px){
+                width: 80%;
+                height: auto;
+            }
             @media(max-width:375px){
                 margin: $tenpxw;
                 padding: $tenpxw;

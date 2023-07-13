@@ -9,6 +9,11 @@ figure{
     align-items: center;
     justify-content: center;
     @media screen {
+        @media(max-width:768px){
+            width: $hundredpxw;
+            height: $hundredpxh;
+            margin-left: 0;
+        }
         @media(max-width:425px){
             width: $hundredpxw;
             height: $hundredpxh;
@@ -24,6 +29,11 @@ figure{
         height: $hundredpxh;
         cursor: pointer;
         @media screen {
+            @media(max-width:768px){
+                width: 20vw;
+                height: 12vh;
+                margin-left: 3rem;
+            }
             @media(max-width:425px){
                 width: 20vw;
                 height: 12vh;

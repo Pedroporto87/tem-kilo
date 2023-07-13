@@ -26,6 +26,10 @@
         gap: 20px;
         grid-template-columns: 0.5fr 0.5fr;
         @media screen {
+            @media(max-width:768px){
+                width: 100%;
+                grid-template-columns: 0.4fr 0.4fr;  
+            }
             @media(max-width:425px){
                 width: 100%;
                 grid-template-columns: 0.5fr 0.5fr;  
@@ -39,6 +43,9 @@
             height: 200px;
             object-fit: cover;
             @media screen {
+                @media(max-width:768px){
+                    height: 150px;
+                }
                 @media(max-width:425px){
                     height: 150px;
                 }
@@ -53,6 +60,7 @@
         width: 21.875rem;
         margin: 1rem;
         @media screen {
+            
             @media(max-width:425px){
                 margin: 0 10% 5% 10%;
                 text-align: center;
@@ -72,6 +80,9 @@
             align-items: center;
             font-size: 2.5rem;
             @media screen {
+                @media(max-width:768px){
+                    font-size: 1.75rem;
+                }
                 @media(max-width:425px){
                     font-size: 1.5rem;
                 }
@@ -87,6 +98,10 @@
             font-size: 1.5rem;
             font-weight: 500;
             @media screen {
+                @media(max-width:768px){
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                }
                 @media(max-width:425px){
                     font-size: 1.2rem;
                     font-weight: 600;
