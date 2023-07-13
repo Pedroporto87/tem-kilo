@@ -8,6 +8,13 @@
     margin: 0.3125rem 1.25rem;
     padding: 0.3125rem 0.9375rem;
     @media screen {
+        @media(max-width:768px){
+            flex-direction: column;
+            margin-bottom: 1.25rem;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+         }
         @media(max-width:425px){
             flex-direction: column;
             margin-bottom: 1.25rem;
@@ -30,6 +37,10 @@
         height: 43.75rem;
         width: 21.875rem;
         @media screen {
+            @media(max-width:768px){
+                width: 80%;
+                height: 5rem;
+             }
             @media(max-width:425px){
                 width: 80%;
                 height: 5rem;
@@ -63,6 +74,10 @@
             border-radius: 0.5rem;
             border: none;
             @media screen {
+                @media(max-width:768px){
+                    width: 100%;
+                    height: 20rem;
+                 }
                 @media(max-width:425px){
                     width: 100%;
                     height: 20rem;
@@ -79,6 +94,10 @@
         flex: 1;
         padding-left: 1.25rem;
         @media screen {
+            @media(max-width:768px){
+                width: 80%;
+                height: auto;
+             }
             @media(max-width:425px){
                 width: 100%;
                 height: auto;
@@ -116,6 +135,10 @@
                 color: $color-wine;
                 word-spacing: 0.1875rem;
                 @media screen {
+                    @media(max-width:768px){
+                        font-size: 1.2rem;
+                        font-weight: 600;
+                    }
                     @media(max-width:425px){
                         font-size: 1.2rem;
                         font-weight: 600;
