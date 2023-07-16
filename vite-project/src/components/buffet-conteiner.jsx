@@ -1,11 +1,12 @@
 import '../styles/components/buffet-conteiner.scss'
-import { BuffetImageSlider } from './buffet-image-slider'
+import { buffetImageSlider } from '../buffet-imageSlder'
+import { ImageSlider } from './image-slider'
 
 export const BuffetConteiner = () => {
   return (
     <section className='buffet-conteiner'>
         <section className='buffet-image'>
-            <BuffetImageSlider />
+            <ImageSlider slider={ buffetImageSlider } />
         </section> 
         <section className='buffet-text'>
             <h1>Buffet</h1>

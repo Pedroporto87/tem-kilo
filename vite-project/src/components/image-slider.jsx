@@ -1,21 +1,13 @@
 import { useState, useEffect, useRef } from 'react'
-import '../styles/components/imageslider.scss'
+import '../styles/components/imageslider.scss';
+import PropTypes from 'prop-types';
 
-    export const ImageSlider = () => {
+    export const ImageSlider = ({ slider }) => {
       const [index, setIndex] = useState(0);
       const timeoutRef = useRef(null);
 
-
-   const japaSlides = [
-        {id: 1, image: '../../slider/tk-2.jpg'},
-        {id: 2, image: '../../slider//tk-17-2.jpg'},
-        {id: 3, image: '../../slider/tk-3.jpg'},
-        {id: 4, image: '../../slider/tk-23.jpg'},
-    ]
-
-  
       const delay = 2500;
-      const length = japaSlides.length
+      const length = slider.length
   
       function resetTimeout() {
           if (timeoutRef.current) {
@@ -23,31 +15,29 @@ import '../styles/components/imageslider.scss'
           }
         }
   
-      useEffect(() => {
-          resetTimeout()
-          timeoutRef.current = setTimeout(
-            () =>
-              setIndex((prevIndex) =>
-                prevIndex === length - 1 ? 0 : prevIndex + 1
-              ),
-            delay
-          ),[index];
+        useEffect(() => {
+          resetTimeout();
+          timeoutRef.current = setTimeout(() => {
+            setIndex((prevIndex) => (prevIndex === length - 1 ? 0 : prevIndex + 1));
+          }, delay);
       
-          return () => {resetTimeout();};
-        }, );
-  
+          return () => {
+            resetTimeout();
+          };
+        }, [index, length]);
+
     return (
-   <section className="buffet-image-slider">
-      <section className="buffet-image-slide" style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>
-          {japaSlides.map((image) =>{
+   <section className="image-slider">
+      <section className="image-slide" style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>
+          {slider.map((image) =>{
            return (
               <div className="slide" key={image.id}>
-                  <img src={image.image} />
+                  <img src={image.image} alt=''/>
               </div>
           )})}
       </section>
       <section className="slideshowDots">
-          {japaSlides.map((_, idx) => (
+          {slider.map((_, idx) => (
             <div key={idx} className={`slideshowDot${index === idx ? " active" : ""}`} 
             onClick={() => {
               setIndex(idx);
@@ -57,5 +47,14 @@ import '../styles/components/imageslider.scss'
       </section>
    </section>
     )
+
   }
+  ImageSlider.propTypes = {
+    slider: PropTypes.arrayOf(
+      PropTypes.shape({
+        id: PropTypes.number.isRequired,
+        image: PropTypes.string.isRequired,
+      })
+    ).isRequired,
+  };
   

@@ -1,5 +1,6 @@
 import '../styles/components/japan-conteiner.scss'
-import  {ImageSlider}  from './image-slider'
+import  { ImageSlider }  from './image-slider'
+import { japaSlider }  from '../japaSlider'
 
 export const JapaConteiner = () => {
   return (
@@ -11,7 +12,7 @@ export const JapaConteiner = () => {
             </p>
         </section>
         <section className='japa-image'>
-            <ImageSlider />
+            <ImageSlider slider={ japaSlider } />
         </section>
     </section>
     

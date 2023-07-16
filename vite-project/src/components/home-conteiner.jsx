@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
-import { AboutUsImageSlider } from './home-aboutUs-imageSlider'
+import { ImageSlider } from './image-slider'
 import '../styles/components/home-conteiner.scss'
+import { aboutUsSlides } from '../aboutus-imageslider'
 
 export const HomeConteiner = () => {
 
@@ -8,7 +9,7 @@ export const HomeConteiner = () => {
   return (
     <section className='home-conteiner'>
         <section className='home-image'>
-          <AboutUsImageSlider />
+          <ImageSlider slider={(aboutUsSlides)} />
         </section>
         <section className='home-texto'>
             <h1 className='home-texto-titulo'>Sobre nós</h1>
