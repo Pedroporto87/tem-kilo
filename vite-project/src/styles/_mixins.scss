@@ -38,6 +38,9 @@
             color: $color-wine;
             cursor: pointer;
             @media screen {
+                @media(max-width:820px){
+                    font-size: 4rem;
+                 }
                 @media(max-width:425px){
                     font-size: 40px;
                  }
@@ -88,7 +91,7 @@
        @media screen {
         @media(max-width:820px){
             height: 50vh;
-            background-position: 20% 50%;
+            background-position: 50% 50%;
         }
         @media(max-width:425px){
             height: 50vh;
