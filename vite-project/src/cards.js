@@ -31,7 +31,7 @@ export const cards = [
     },
     {
         id: 6,
-        name: 'Sabado',
+        name: 'Sábado',
         conteudo: 'Feijoada',
         icon: '../cards-img/feijoada.png'
     },

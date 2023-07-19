@@ -8,7 +8,7 @@
     margin: 0.3125rem 1.25rem;
     padding: 0.3125rem 0.9375rem;
     @media screen {
-        @media(max-width:768px){
+        @media(max-width:796px){
             flex-direction: column;
             margin-bottom: 1.25rem;
             justify-content: center;
@@ -37,7 +37,7 @@
         height: 43.75rem;
         width: 21.875rem;
         @media screen {
-            @media(max-width:768px){
+            @media(max-width:796px){
                 width: 80%;
                 height: 5rem;
              }
@@ -74,7 +74,7 @@
             border-radius: 0.5rem;
             border: none;
             @media screen {
-                @media(max-width:768px){
+                @media(max-width:796px){
                     width: 100%;
                     height: 20rem;
                  }
@@ -94,7 +94,7 @@
         flex: 1;
         padding-left: 1.25rem;
         @media screen {
-            @media(max-width:768px){
+            @media(max-width:796px){
                 width: 80%;
                 height: auto;
              }
@@ -118,7 +118,7 @@
                 font-size: 1.17em;
                 margin-bottom: 1rem;
                 @media screen {
-                    @media(max-width:1024px){
+                    @media(max-width:796px){
                         margin-top: .625rem;
                         font-size: 1.5rem;
                     }
@@ -139,7 +139,7 @@
                 color: $color-wine;
                 word-spacing: 0.1875rem;
                 @media screen {
-                    @media(max-width:768px){
+                    @media(max-width:796px){
                         font-size: 1.2rem;
                         font-weight: 600;
                     }

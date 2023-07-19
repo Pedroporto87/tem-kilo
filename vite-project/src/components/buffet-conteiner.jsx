@@ -10,11 +10,11 @@ export const BuffetConteiner = () => {
         </section> 
         <section className='buffet-text'>
             <h1>Buffet</h1>
-            <p>O Restaurante Tem Kilo é conhecido por sua variedade e qualidade dos pratos,
-                 em seu buffet a quilo são encontradas diversas opções de saladas, pratos quentes
+            <p>O Restaurante Tem Kilo é conhecido por sua variedade e qualidade dos pratos.
+                 Em seu buffet a quilo são encontradas diversas opções de saladas, pratos quentes,
                  churrasco e culinaria japonesa.
             </p>
-            <p>Outro destaque são as deliciosas opções de sobremesas, também disponíveis a peso. 
+            <p>Outro destaque são as deliciosas opções de sobremesas, também disponíveis a peso: 
                 Sorvetes, doces típicos, mousses e tortas de dar água na boca! Você não vai resistir!</p>
             <p>Preços:<br/>
             Segunda a Sexta - R$81,90 <br />

@@ -7,7 +7,7 @@ export const JapaConteiner = () => {
     <section className='japa-conteiner'>
         <section className='japa-text'>
             <h1>Todo dia é dia de Japonês</h1>
-            <p>Todo dia temos um buffet especial de comida japonês com grande diversidade
+            <p>Todo dia temos um buffet especial de comida japonesa, com grande diversidade
                 de todo tipo de delicias. Venha experimentar!
             </p>
         </section>
