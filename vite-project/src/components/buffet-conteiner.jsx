@@ -15,7 +15,7 @@ export const BuffetConteiner = () => {
                  churrasco e culinaria japonesa.
             </p>
             <p>Outro destaque são as deliciosas opções de sobremesas, também disponíveis a peso: 
-                Sorvetes, doces típicos, mousses e tortas de dar água na boca! Você não vai resistir!</p>
+                sorvetes, doces típicos, mousses e tortas de dar água na boca! Você não vai resistir!</p>
             <p>Preços:<br/>
             Segunda a Sexta - R$81,90 <br />
             Sabados, domingos e feriados - R$84,90<br />
