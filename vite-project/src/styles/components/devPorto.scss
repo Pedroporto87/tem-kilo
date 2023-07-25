@@ -1,0 +1,13 @@
+@import '../variables';
+@import '../mixins';
+
+.devPorto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-text;
+    font-weight:700 ;
+    color: $color-wine;
+    cursor: pointer;
+
+}
