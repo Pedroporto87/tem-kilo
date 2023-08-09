@@ -22,7 +22,7 @@ export const BbqConteiner = () => {
         </section>
     <section className='bbq-texto'>
         <h1>Churrasco? Todo dia Tem!</h1>
-        <p>Na Tem Kilo tem! Churrasco da melhor qualidade, com grande qualidade, variedade 
+        <p>Na TemKilo tem! Churrasco da melhor qualidade, com grande qualidade, variedade 
             no ponto que você desejar!
         </p>
     </section>

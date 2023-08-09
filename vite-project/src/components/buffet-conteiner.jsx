@@ -10,7 +10,7 @@ export const BuffetConteiner = () => {
         </section> 
         <section className='buffet-text'>
             <h1>Buffet</h1>
-            <p>O Restaurante Tem Kilo é conhecido por sua variedade e qualidade dos pratos.
+            <p>O Restaurante TemKilo é conhecido por sua variedade e qualidade dos pratos.
                  Em seu buffet a quilo são encontradas diversas opções de saladas, pratos quentes,
                  churrasco e culinaria japonesa.
             </p>
