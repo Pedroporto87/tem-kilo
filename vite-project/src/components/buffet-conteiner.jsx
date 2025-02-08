@@ -17,11 +17,11 @@ export const BuffetConteiner = () => {
             <p>Outro destaque são as deliciosas opções de sobremesas, também disponíveis a peso: 
                 sorvetes, doces típicos, mousses e tortas de dar água na boca! Você não vai resistir!</p>
             <p>Preços:<br/>
-            Segunda a Sexta - R$84,90 <br />
-            Sabados, domingos e feriados - R$88,90<br />
-            Só Carnes - R$93,90<br />
+            Segunda a Sexta - R$88,90 <br />
+            Sabados, domingos e feriados - R$92,90<br />
+            Só Carnes - R$101,90<br />
             Sobremesas - R$90,90<br />
-            Japonês - R$134,90</p>
+            Japonês - R$135,90</p>
             <p>Horário de Funcionamento:<br/>
             Todos os dias, inclusive feriados, das 11:00 as 17:30</p>
         </section>
